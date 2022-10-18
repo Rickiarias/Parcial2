@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.BV{
+background-image: linear-gradient(to right, rgba(8, 0, 0, 0.068) , rgb(56, 53, 51));
+padding: 100px;
+text-align: justify;
+
+}
+
+article.T1{
+    /*Establecer el numero de columnas*/
+    font-size: 3ch;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    /*establecer espacio entre columnas*/
+    -webkit-column-gap: 80px;
+    -moz-column-gap:80px ;
+    column-gap: 80px;
+    /*Agregar linea negra*/
+    -webkit-column-rule: 1 px outset rgb(114, 112, 112);
+    -moz-column-rule: 1px outset rgb(114, 112, 112) ;
+    column-rule: 1px outset rgb(114, 112, 112);
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+
+    }
+    #p1{
+        color: black;
+        font-family: 'Prompt', sans-serif;
+        margin-right: 80px;
+    }
+    #p2{
+        color: black;
+        font-family: 'Prompt', sans-serif;
+        font-size: medium;
+    }
+    .b1{
+        border-radius: 10px;
+        padding: 10px;
+        border-color:rgb(182, 215, 243);
+        background-color: rgb(182, 215, 243);
+        margin-top: 15px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+    /*El CSS para el segundo articulo */
+
+    .S2{
+        background-color: whitesmoke;
+        padding: 110px;
+        text-align: justify;
+    }
+
+    article.T2{
+          /*Establecer el numero de columnas*/
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    /*establecer espacio entre columnas*/
+    -webkit-column-gap: 80px;
+    -moz-column-gap:80px ;
+    column-gap: 80px;
+    /*Agregar linea negra*/
+    -webkit-column-rule: 1 px outset rgb(165, 156, 156);
+    -moz-column-rule: 1px outset rgb(165, 156, 156);
+    column-rule: 1px outset  rgb(165, 156, 156);
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  
+  }
+.T2 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom:10px;
+    margin-top: 5px; 
+
+}
+#p1-1{
+    font-size: medium;
+    color: rgb(87, 80, 80); 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:1.4;
+
+   
+ 
+    }
+    #p2-1{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(83, 56, 56);
+        font-weight: bold;
+        line-height: 1.8;
+        margin-right: -50px;
+        margin-bottom: 100px;
+
+       
+     }
+     .fa-check{
+        color: rgb(36, 187, 99);
+        margin-right: 10px;
+     }
+
+
+
+
+
+    
